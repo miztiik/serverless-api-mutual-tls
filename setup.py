@@ -9,14 +9,14 @@ setuptools.setup(
     name="serverless_api_mutual_tls",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="serverless-api-mutual-tls",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     author="author",
 
-    package_dir={"": "serverless_api_mutual_tls"},
-    packages=setuptools.find_packages(where="serverless_api_mutual_tls"),
+    package_dir={"": "stacks"},
+    packages=setuptools.find_packages(where="stacks"),
 
     install_requires=[
         "aws-cdk.core==1.89.0",
