@@ -2,7 +2,7 @@
 
 Mystique Unicorn App is a building new microservice. Their developers are looking for a way to validate the incoming requests are coming from trusted sources and deny invoking the backend systems if the requests are from un-trusted sources. This will have the benefit of reducing cost as well improving the performance of the backend components. The team is looking for your help to achieve this. Can you help them?
 
-![Miztiik Automation: API Design Best Practice - Mutual TLS authentication for APIs](images/miztiik_automation_api_design_best_practice_mutual_tls_architecture_001.png)
+![Miztiik Automation: API Design Best Practice - Mutual TLS authentication for APIs](images/miztiik_automation_api_design_best_practice_mutual_tls_architecture_000.png)
 
 ## 🎯 Solutions
 
