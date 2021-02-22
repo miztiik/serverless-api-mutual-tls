@@ -1,14 +1,15 @@
 # API Design Best Practice: Mutual TLS authentication for APIs
 
-Mystique Unicorn App is a building new microservice. Their developers are looking for a way to validate the incoming requests are coming from trusted sources and deny invoking the backend systems if the requests are from un-trusted sources. This will have the benefit of reducing cost as well improving the performance of the backend components. The team is looking for your help to achieve this. Can you help them?
+Mystique Unicorn App is a building new microservice. Their developers are looking for a way to validate the incoming requests are coming from trusted sources and deny invoking the backend systems if the requests are from un-trusted sources. This will have the benefit of reducing cost as well as improving the performance of the backend components. The team is looking for your help to achieve this. Can you help them?
 
-![Miztiik Automation: API Design Best Practice - Mutual TLS authentication for APIs](images/miztiik_automation_api_design_best_practice_mutual_tls_architecture_000.png)
 
 ## 🎯 Solutions
 
 TLS is the successor to SSL and it’s an excellent standard with many features. TLS guarantees the identity of the server to the client and provides a two-way encrypted channel between the server and client. Mutual TLS (mTLS) authentication ensures that traffic is both secure and trusted in both directions between a client and server. 
 
 By default, the TLS protocol only requires a server to authenticate itself to the client. The authentication of the client to the server is managed by the application layer. The TLS protocol also offers the ability for the server to request that the client send an X.509 certificate to prove its identity. This is called _mutual TLS (mTLS)_ as both parties are authenticated via certificates with TLS.
+
+![Miztiik Automation: API Design Best Practice - Mutual TLS authentication for APIs](images/miztiik_automation_api_design_best_practice_mutual_tls_architecture_000.png)
 
 To use mutual TLS with API Gateway, you upload a CA public key certificate bundle as an object containing public or private/self-signed CA certs. This is used for validation of client certificates. All existing API authorization options are available for use with mTLS authentication.
 
